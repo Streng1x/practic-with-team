@@ -327,3 +327,52 @@ nav {
     display: block;
 }
 /*  ХЕДЕР 🦞 */
+
+
+
+
+
+/* БАННЕР 👀 */
+.banner_of_roadmap {
+    margin-top: 122px;
+    height: 530px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+.home_of_roadmap {
+    width: 1200px;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    color: #FFFFFF;
+}
+
+.home_of_roadmap_left {
+    width: 564px;
+    height: 346px;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.home_of_roadmap_left h1 {
+    font-size: 40px;
+    font-weight: 700;
+}
+
+.home_of_roadmap_left p {
+    font-size: 20px;
+}
+
+
+.home_of_roadmap_right {
+    position: absolute;
+    width: 55%;
+    transform: translateY(90px);
+    top: 0;
+    right: 0;
+}
+/* БАННЕР 👀 */
