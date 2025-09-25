@@ -856,3 +856,48 @@ nav {
     opacity: 0.83;
 }
 /* ПЯТАЯ СЕКЦИЯ > */
+
+
+
+
+
+/* ШЕСТАЯ СЕКЦИЯ */
+.sixth_section {
+    height: 596px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #FFFFFF;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.20);
+}
+
+.sixth_section_blocks {
+    width: 1194px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+.sixth_section_blocks_left {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+
+.sixth_section_blocks_left h2 {
+    font-weight: 700;
+    font-size: 40px;
+}
+
+.sixth_section_blocks_left p {
+    font-weight: 300;
+    font-size: 20px;
+    opacity: 0.83;
+}
+
+.paragraf {
+    display: flex;
+    gap: 12px;
+}
+/* ШЕСТАЯ СЕКЦИЯ */
