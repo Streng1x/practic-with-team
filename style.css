@@ -905,6 +905,78 @@ nav {
 
 
 
+/* СЕДЬМАЯ СЕКЦИЯ 🧠 */
+.seventh_section {
+    height: 1112px;
+    margin-top: 45px;
+    display: flex;
+    justify-content: center;
+    color: #FFFFFF;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.20);
+    position: relative;
+}
+
+/* .seventh_section::before {
+    content: url('/img/seventh_section_back.svg');
+    position: absolute;
+    top: 420px;
+    left: 600px;
+    width: 100px;
+    height: auto;
+}
+
+.seventh_section::after {
+    content: url('/img/seventh_section_img.svg');
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100px;
+    height: auto;
+} */
+
+.seventh_section_blocks {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+    gap: 174px;
+}
+
+
+
+.seventh_section_blocks_up {
+    width: 1249px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    transform: translateX(-27px);
+    gap: 73px;
+}
+
+.seventh_section_blocks_up h2 {
+    font-weight: 700;
+    font-size: 40px;
+}
+
+.seventh_section_blocks_up p {
+    font-weight: 300;
+    font-size: 20px;
+    opacity: 0.83;
+}
+
+
+
+.seventh_section_block_down {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+
 .seventh_section_blocks_left {
     width: 514px;
     height: 478px;
@@ -980,7 +1052,7 @@ nav {
 .seventh_section_blocks_right_img {
     position: absolute;
 }
-/* СЕДЬМАЯ СЕКЦИЯ ,,,, */
+/* СЕДЬМАЯ СЕКЦИЯ 🧠 */
 
 
 
@@ -988,7 +1060,6 @@ nav {
 
 /* ФУТЕР 👽 */
 footer {
-    width: 390px;
     height: 449px;
     display: flex;
     justify-content: center;
@@ -1023,16 +1094,13 @@ footer {
 
 .footer_pp {
     display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
     gap: 10px;
-    font-size: 17px;
+    font-size: 20px;
     font-weight: 300;
 }
 
 .footer_hr {
-    width: 338px;
+    width: 1200px;
     height: 0.5px;
     opacity: 50%;
     border: 0.5px solid rgba(255, 255, 255, 0.10);
